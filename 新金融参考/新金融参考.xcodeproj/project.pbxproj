@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BB3D71720CE41730067B588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3D71620CE41730067B588 /* AppDelegate.swift */; };
+		1BB3D71920CE41730067B588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3D71820CE41730067B588 /* ViewController.swift */; };
+		1BB3D71E20CE41750067B588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB3D71D20CE41750067B588 /* Assets.xcassets */; };
+		1BB3D72120CE41750067B588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB3D71F20CE41750067B588 /* LaunchScreen.storyboard */; };
+		1BB3D72C20CE41750067B588 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3D72B20CE41750067B588 /* _____Tests.swift */; };
+		1BB3D73720CE41750067B588 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB3D73620CE41750067B588 /* _____UITests.swift */; };
+		1BE6273620CFB77500DE655F /* AllFloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE6273520CFB77500DE655F /* AllFloatButton.swift */; };
+		1BED258720D0BF3800A5CBBC /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BED257A20D0BF3800A5CBBC /* UMSocialSDKResources.bundle */; };
+		1BED258F20D0C35900A5CBBC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED258E20D0C35900A5CBBC /* libsqlite3.tbd */; };
+		1BED259F20D122F000A5CBBC /* libSocialWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED259720D122F000A5CBBC /* libSocialWeChat.a */; };
+		1BED25A020D122F000A5CBBC /* libSocialSina.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED259A20D122F000A5CBBC /* libSocialSina.a */; };
+		1BED25A120D122F000A5CBBC /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED259E20D122F000A5CBBC /* libSocialQQ.a */; };
+		1BED25AF20D1353C00A5CBBC /* UMShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED257C20D0BF3800A5CBBC /* UMShare.framework */; };
+		1BED25B020D1358200A5CBBC /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED257B20D0BF3800A5CBBC /* UShareUI.framework */; };
+		1BEECA2820DB595B006EEB0D /* SwiftPopMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEECA2720DB595B006EEB0D /* SwiftPopMenu.swift */; };
+		1BEECA2C20DB5E73006EEB0D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BEECA2920DB5E73006EEB0D /* back.png */; };
+		1BEECA2D20DB5E73006EEB0D /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BEECA2A20DB5E73006EEB0D /* menu.png */; };
+		1BEECA2E20DB5E73006EEB0D /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BEECA2B20DB5E73006EEB0D /* share.png */; };
+		1BEECA3020DB6151006EEB0D /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BEECA2F20DB6150006EEB0D /* refresh.png */; };
+		1BEECA3420DB70E5006EEB0D /* Default-812h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BEECA3320DB70E5006EEB0D /* Default-812h@3x.png */; };
+		1BEECA3820DB7A18006EEB0D /* Default-1142@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BEECA3720DB7A18006EEB0D /* Default-1142@2x.png */; };
+		1BEECA3C20DB7A9F006EEB0D /* Default-750@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BEECA3B20DB7A9F006EEB0D /* Default-750@2x.png */; };
+		1BEECA3F20DB7BC1006EEB0D /* Default-640@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BEECA3D20DB7BC0006EEB0D /* Default-640@2x.png */; };
+		1BEECA4020DB7BC1006EEB0D /* Default-1136@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BEECA3E20DB7BC1006EEB0D /* Default-1136@2x.png */; };
+		1BFE875620D4A97500F9B7FA /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BED259220D0C39500A5CBBC /* Photos.framework */; };
+		1BFE878220D4ADBE00F9B7FA /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFE878120D4ADBE00F9B7FA /* UMCommon.framework */; };
+		1BFE879320D4CF1E00F9B7FA /* logoN40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE878A20D4CF1D00F9B7FA /* logoN40.png */; };
+		1BFE879420D4CF1E00F9B7FA /* logoN1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE878B20D4CF1D00F9B7FA /* logoN1024.png */; };
+		1BFE879520D4CF1E00F9B7FA /* logoN.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE878C20D4CF1D00F9B7FA /* logoN.png */; };
+		1BFE879620D4CF1E00F9B7FA /* logoN87.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE878D20D4CF1D00F9B7FA /* logoN87.png */; };
+		1BFE879720D4CF1E00F9B7FA /* logoN120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE878E20D4CF1D00F9B7FA /* logoN120.png */; };
+		1BFE879820D4CF1E00F9B7FA /* logoN60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE878F20D4CF1E00F9B7FA /* logoN60.png */; };
+		1BFE879920D4CF1E00F9B7FA /* logoN80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE879020D4CF1E00F9B7FA /* logoN80.png */; };
+		1BFE879A20D4CF1E00F9B7FA /* logoN58.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE879120D4CF1E00F9B7FA /* logoN58.png */; };
+		1BFE879B20D4CF1E00F9B7FA /* logoN180.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE879220D4CF1E00F9B7FA /* logoN180.png */; };
+		1BFE87A120D4D4F400F9B7FA /* logoN20.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE879C20D4D4F300F9B7FA /* logoN20.png */; };
+		1BFE87A220D4D4F400F9B7FA /* logoN29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE879D20D4D4F300F9B7FA /* logoN29.png */; };
+		1BFE87A320D4D4F400F9B7FA /* logoN152.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE879E20D4D4F300F9B7FA /* logoN152.png */; };
+		1BFE87A420D4D4F400F9B7FA /* logoN167.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE879F20D4D4F300F9B7FA /* logoN167.png */; };
+		1BFE87A520D4D4F400F9B7FA /* logoN76.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE87A020D4D4F400F9B7FA /* logoN76.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BB3D72820CE41750067B588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BB3D70B20CE41730067B588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BB3D71220CE41730067B588;
+			remoteInfo = "新金融参考";
+		};
+		1BB3D73320CE41750067B588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BB3D70B20CE41730067B588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BB3D71220CE41730067B588;
+			remoteInfo = "新金融参考";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BB3D71320CE41730067B588 /* 新金融参考.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新金融参考.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB3D71620CE41730067B588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BB3D71820CE41730067B588 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BB3D71D20CE41750067B588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BB3D72020CE41750067B588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BB3D72220CE41750067B588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB3D72720CE41750067B588 /* 新金融参考Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新金融参考Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB3D72B20CE41750067B588 /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		1BB3D72D20CE41750067B588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB3D73220CE41750067B588 /* 新金融参考UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新金融参考UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB3D73620CE41750067B588 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
+		1BB3D73820CE41750067B588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE6273520CFB77500DE655F /* AllFloatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFloatButton.swift; sourceTree = "<group>"; };
+		1BED257A20D0BF3800A5CBBC /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		1BED257B20D0BF3800A5CBBC /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		1BED257C20D0BF3800A5CBBC /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMShare.framework; sourceTree = "<group>"; };
+		1BED258E20D0C35900A5CBBC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1BED259020D0C36900A5CBBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1BED259220D0C39500A5CBBC /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		1BED259720D122F000A5CBBC /* libSocialWeChat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWeChat.a; sourceTree = "<group>"; };
+		1BED259820D122F000A5CBBC /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		1BED259A20D122F000A5CBBC /* libSocialSina.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialSina.a; sourceTree = "<group>"; };
+		1BED259B20D122F000A5CBBC /* UMSocialSinaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSinaHandler.h; sourceTree = "<group>"; };
+		1BED259D20D122F000A5CBBC /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		1BED259E20D122F000A5CBBC /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		1BEECA2720DB595B006EEB0D /* SwiftPopMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPopMenu.swift; sourceTree = "<group>"; };
+		1BEECA2920DB5E73006EEB0D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		1BEECA2A20DB5E73006EEB0D /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		1BEECA2B20DB5E73006EEB0D /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		1BEECA2F20DB6150006EEB0D /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		1BEECA3320DB70E5006EEB0D /* Default-812h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-812h@3x.png"; sourceTree = "<group>"; };
+		1BEECA3720DB7A18006EEB0D /* Default-1142@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-1142@2x.png"; sourceTree = "<group>"; };
+		1BEECA3B20DB7A9F006EEB0D /* Default-750@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-750@2x.png"; sourceTree = "<group>"; };
+		1BEECA3D20DB7BC0006EEB0D /* Default-640@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-640@2x.png"; sourceTree = "<group>"; };
+		1BEECA3E20DB7BC1006EEB0D /* Default-1136@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-1136@2x.png"; sourceTree = "<group>"; };
+		1BFE878120D4ADBE00F9B7FA /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		1BFE878A20D4CF1D00F9B7FA /* logoN40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN40.png; sourceTree = "<group>"; };
+		1BFE878B20D4CF1D00F9B7FA /* logoN1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN1024.png; sourceTree = "<group>"; };
+		1BFE878C20D4CF1D00F9B7FA /* logoN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN.png; sourceTree = "<group>"; };
+		1BFE878D20D4CF1D00F9B7FA /* logoN87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN87.png; sourceTree = "<group>"; };
+		1BFE878E20D4CF1D00F9B7FA /* logoN120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN120.png; sourceTree = "<group>"; };
+		1BFE878F20D4CF1E00F9B7FA /* logoN60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN60.png; sourceTree = "<group>"; };
+		1BFE879020D4CF1E00F9B7FA /* logoN80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN80.png; sourceTree = "<group>"; };
+		1BFE879120D4CF1E00F9B7FA /* logoN58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN58.png; sourceTree = "<group>"; };
+		1BFE879220D4CF1E00F9B7FA /* logoN180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN180.png; sourceTree = "<group>"; };
+		1BFE879C20D4D4F300F9B7FA /* logoN20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN20.png; sourceTree = "<group>"; };
+		1BFE879D20D4D4F300F9B7FA /* logoN29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN29.png; sourceTree = "<group>"; };
+		1BFE879E20D4D4F300F9B7FA /* logoN152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN152.png; sourceTree = "<group>"; };
+		1BFE879F20D4D4F300F9B7FA /* logoN167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN167.png; sourceTree = "<group>"; };
+		1BFE87A020D4D4F400F9B7FA /* logoN76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoN76.png; sourceTree = "<group>"; };
+		E921154389AD5004A14DF550 /* libPods-新金融参考.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-新金融参考.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9423DF6209A0FA63124CE97 /* Pods-新金融参考.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新金融参考.release.xcconfig"; path = "Pods/Target Support Files/Pods-新金融参考/Pods-新金融参考.release.xcconfig"; sourceTree = "<group>"; };
+		F824230A5324E87A72926A4E /* Pods-新金融参考.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新金融参考.debug.xcconfig"; path = "Pods/Target Support Files/Pods-新金融参考/Pods-新金融参考.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BB3D71020CE41730067B588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFE875620D4A97500F9B7FA /* Photos.framework in Frameworks */,
+				1BFE878220D4ADBE00F9B7FA /* UMCommon.framework in Frameworks */,
+				1BED25B020D1358200A5CBBC /* UShareUI.framework in Frameworks */,
+				1BED25AF20D1353C00A5CBBC /* UMShare.framework in Frameworks */,
+				1BED25A120D122F000A5CBBC /* libSocialQQ.a in Frameworks */,
+				1BED258F20D0C35900A5CBBC /* libsqlite3.tbd in Frameworks */,
+				1BED25A020D122F000A5CBBC /* libSocialSina.a in Frameworks */,
+				1BED259F20D122F000A5CBBC /* libSocialWeChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BB3D72420CE41750067B588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BB3D72F20CE41750067B588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BB3D70A20CE41730067B588 = {
+			isa = PBXGroup;
+			children = (
+				1BEECA3D20DB7BC0006EEB0D /* Default-640@2x.png */,
+				1BEECA3E20DB7BC1006EEB0D /* Default-1136@2x.png */,
+				1BEECA3B20DB7A9F006EEB0D /* Default-750@2x.png */,
+				1BEECA3720DB7A18006EEB0D /* Default-1142@2x.png */,
+				1BEECA3320DB70E5006EEB0D /* Default-812h@3x.png */,
+				1BB3D71520CE41730067B588 /* 新金融参考 */,
+				1BB3D72A20CE41750067B588 /* 新金融参考Tests */,
+				1BB3D73520CE41750067B588 /* 新金融参考UITests */,
+				1BB3D71420CE41730067B588 /* Products */,
+				1BED258D20D0C35900A5CBBC /* Frameworks */,
+				4852D780FDDCBF03DC1B51A8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1BB3D71420CE41730067B588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BB3D71320CE41730067B588 /* 新金融参考.app */,
+				1BB3D72720CE41750067B588 /* 新金融参考Tests.xctest */,
+				1BB3D73220CE41750067B588 /* 新金融参考UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BB3D71520CE41730067B588 /* 新金融参考 */ = {
+			isa = PBXGroup;
+			children = (
+				1BFE878920D4CA7D00F9B7FA /* icon */,
+				1BED257820D0BE7000A5CBBC /* UMSocial */,
+				1BB3D71620CE41730067B588 /* AppDelegate.swift */,
+				1BB3D71820CE41730067B588 /* ViewController.swift */,
+				1BB3D71D20CE41750067B588 /* Assets.xcassets */,
+				1BB3D71F20CE41750067B588 /* LaunchScreen.storyboard */,
+				1BB3D72220CE41750067B588 /* Info.plist */,
+				1BE6273520CFB77500DE655F /* AllFloatButton.swift */,
+				1BEECA2720DB595B006EEB0D /* SwiftPopMenu.swift */,
+			);
+			path = "新金融参考";
+			sourceTree = "<group>";
+		};
+		1BB3D72A20CE41750067B588 /* 新金融参考Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1BB3D72B20CE41750067B588 /* _____Tests.swift */,
+				1BB3D72D20CE41750067B588 /* Info.plist */,
+			);
+			path = "新金融参考Tests";
+			sourceTree = "<group>";
+		};
+		1BB3D73520CE41750067B588 /* 新金融参考UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BB3D73620CE41750067B588 /* _____UITests.swift */,
+				1BB3D73820CE41750067B588 /* Info.plist */,
+			);
+			path = "新金融参考UITests";
+			sourceTree = "<group>";
+		};
+		1BED257820D0BE7000A5CBBC /* UMSocial */ = {
+			isa = PBXGroup;
+			children = (
+				1BFE878020D4ADBE00F9B7FA /* normal */,
+				1BED259520D122F000A5CBBC /* SocialLibraries */,
+				1BED257C20D0BF3800A5CBBC /* UMShare.framework */,
+				1BED257920D0BF3800A5CBBC /* UMSocialUI */,
+			);
+			path = UMSocial;
+			sourceTree = "<group>";
+		};
+		1BED257920D0BF3800A5CBBC /* UMSocialUI */ = {
+			isa = PBXGroup;
+			children = (
+				1BED257A20D0BF3800A5CBBC /* UMSocialSDKResources.bundle */,
+				1BED257B20D0BF3800A5CBBC /* UShareUI.framework */,
+			);
+			path = UMSocialUI;
+			sourceTree = "<group>";
+		};
+		1BED258D20D0C35900A5CBBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BED259220D0C39500A5CBBC /* Photos.framework */,
+				1BED259020D0C36900A5CBBC /* CoreGraphics.framework */,
+				1BED258E20D0C35900A5CBBC /* libsqlite3.tbd */,
+				E921154389AD5004A14DF550 /* libPods-新金融参考.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BED259520D122F000A5CBBC /* SocialLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				1BED259620D122F000A5CBBC /* WeChat */,
+				1BED259920D122F000A5CBBC /* Sina */,
+				1BED259C20D122F000A5CBBC /* QQ */,
+			);
+			name = SocialLibraries;
+			path = ../SocialLibraries;
+			sourceTree = "<group>";
+		};
+		1BED259620D122F000A5CBBC /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				1BED259720D122F000A5CBBC /* libSocialWeChat.a */,
+				1BED259820D122F000A5CBBC /* UMSocialWechatHandler.h */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		1BED259920D122F000A5CBBC /* Sina */ = {
+			isa = PBXGroup;
+			children = (
+				1BED259A20D122F000A5CBBC /* libSocialSina.a */,
+				1BED259B20D122F000A5CBBC /* UMSocialSinaHandler.h */,
+			);
+			path = Sina;
+			sourceTree = "<group>";
+		};
+		1BED259C20D122F000A5CBBC /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				1BED259D20D122F000A5CBBC /* UMSocialQQHandler.h */,
+				1BED259E20D122F000A5CBBC /* libSocialQQ.a */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
+		1BFE878020D4ADBE00F9B7FA /* normal */ = {
+			isa = PBXGroup;
+			children = (
+				1BFE878120D4ADBE00F9B7FA /* UMCommon.framework */,
+			);
+			path = normal;
+			sourceTree = "<group>";
+		};
+		1BFE878920D4CA7D00F9B7FA /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				1BEECA2F20DB6150006EEB0D /* refresh.png */,
+				1BEECA2920DB5E73006EEB0D /* back.png */,
+				1BEECA2A20DB5E73006EEB0D /* menu.png */,
+				1BEECA2B20DB5E73006EEB0D /* share.png */,
+				1BFE879C20D4D4F300F9B7FA /* logoN20.png */,
+				1BFE879D20D4D4F300F9B7FA /* logoN29.png */,
+				1BFE87A020D4D4F400F9B7FA /* logoN76.png */,
+				1BFE879E20D4D4F300F9B7FA /* logoN152.png */,
+				1BFE879F20D4D4F300F9B7FA /* logoN167.png */,
+				1BFE878C20D4CF1D00F9B7FA /* logoN.png */,
+				1BFE878A20D4CF1D00F9B7FA /* logoN40.png */,
+				1BFE879120D4CF1E00F9B7FA /* logoN58.png */,
+				1BFE878F20D4CF1E00F9B7FA /* logoN60.png */,
+				1BFE879020D4CF1E00F9B7FA /* logoN80.png */,
+				1BFE878D20D4CF1D00F9B7FA /* logoN87.png */,
+				1BFE878E20D4CF1D00F9B7FA /* logoN120.png */,
+				1BFE879220D4CF1E00F9B7FA /* logoN180.png */,
+				1BFE878B20D4CF1D00F9B7FA /* logoN1024.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		4852D780FDDCBF03DC1B51A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F824230A5324E87A72926A4E /* Pods-新金融参考.debug.xcconfig */,
+				E9423DF6209A0FA63124CE97 /* Pods-新金融参考.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BB3D71220CE41730067B588 /* 新金融参考 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BB3D73B20CE41750067B588 /* Build configuration list for PBXNativeTarget "新金融参考" */;
+			buildPhases = (
+				D41A2934743F2265D0C2A663 /* [CP] Check Pods Manifest.lock */,
+				1BB3D70F20CE41730067B588 /* Sources */,
+				1BB3D71020CE41730067B588 /* Frameworks */,
+				1BB3D71120CE41730067B588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "新金融参考";
+			productName = "新金融参考";
+			productReference = 1BB3D71320CE41730067B588 /* 新金融参考.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BB3D72620CE41750067B588 /* 新金融参考Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BB3D73E20CE41750067B588 /* Build configuration list for PBXNativeTarget "新金融参考Tests" */;
+			buildPhases = (
+				1BB3D72320CE41750067B588 /* Sources */,
+				1BB3D72420CE41750067B588 /* Frameworks */,
+				1BB3D72520CE41750067B588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BB3D72920CE41750067B588 /* PBXTargetDependency */,
+			);
+			name = "新金融参考Tests";
+			productName = "新金融参考Tests";
+			productReference = 1BB3D72720CE41750067B588 /* 新金融参考Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BB3D73120CE41750067B588 /* 新金融参考UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BB3D74120CE41750067B588 /* Build configuration list for PBXNativeTarget "新金融参考UITests" */;
+			buildPhases = (
+				1BB3D72E20CE41750067B588 /* Sources */,
+				1BB3D72F20CE41750067B588 /* Frameworks */,
+				1BB3D73020CE41750067B588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BB3D73420CE41750067B588 /* PBXTargetDependency */,
+			);
+			name = "新金融参考UITests";
+			productName = "新金融参考UITests";
+			productReference = 1BB3D73220CE41750067B588 /* 新金融参考UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BB3D70B20CE41730067B588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "异彩传媒";
+				TargetAttributes = {
+					1BB3D71220CE41730067B588 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					1BB3D72620CE41750067B588 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 1BB3D71220CE41730067B588;
+					};
+					1BB3D73120CE41750067B588 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 1BB3D71220CE41730067B588;
+					};
+				};
+			};
+			buildConfigurationList = 1BB3D70E20CE41730067B588 /* Build configuration list for PBXProject "新金融参考" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BB3D70A20CE41730067B588;
+			productRefGroup = 1BB3D71420CE41730067B588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BB3D71220CE41730067B588 /* 新金融参考 */,
+				1BB3D72620CE41750067B588 /* 新金融参考Tests */,
+				1BB3D73120CE41750067B588 /* 新金融参考UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BB3D71120CE41730067B588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB3D72120CE41750067B588 /* LaunchScreen.storyboard in Resources */,
+				1BEECA3F20DB7BC1006EEB0D /* Default-640@2x.png in Resources */,
+				1BFE87A120D4D4F400F9B7FA /* logoN20.png in Resources */,
+				1BFE879920D4CF1E00F9B7FA /* logoN80.png in Resources */,
+				1BFE879320D4CF1E00F9B7FA /* logoN40.png in Resources */,
+				1BFE87A420D4D4F400F9B7FA /* logoN167.png in Resources */,
+				1BFE87A320D4D4F400F9B7FA /* logoN152.png in Resources */,
+				1BFE879420D4CF1E00F9B7FA /* logoN1024.png in Resources */,
+				1BFE879720D4CF1E00F9B7FA /* logoN120.png in Resources */,
+				1BFE879520D4CF1E00F9B7FA /* logoN.png in Resources */,
+				1BB3D71E20CE41750067B588 /* Assets.xcassets in Resources */,
+				1BEECA2E20DB5E73006EEB0D /* share.png in Resources */,
+				1BEECA3020DB6151006EEB0D /* refresh.png in Resources */,
+				1BFE87A220D4D4F400F9B7FA /* logoN29.png in Resources */,
+				1BFE879B20D4CF1E00F9B7FA /* logoN180.png in Resources */,
+				1BEECA3820DB7A18006EEB0D /* Default-1142@2x.png in Resources */,
+				1BEECA2C20DB5E73006EEB0D /* back.png in Resources */,
+				1BEECA3420DB70E5006EEB0D /* Default-812h@3x.png in Resources */,
+				1BFE879820D4CF1E00F9B7FA /* logoN60.png in Resources */,
+				1BFE87A520D4D4F400F9B7FA /* logoN76.png in Resources */,
+				1BEECA2D20DB5E73006EEB0D /* menu.png in Resources */,
+				1BEECA4020DB7BC1006EEB0D /* Default-1136@2x.png in Resources */,
+				1BFE879620D4CF1E00F9B7FA /* logoN87.png in Resources */,
+				1BEECA3C20DB7A9F006EEB0D /* Default-750@2x.png in Resources */,
+				1BED258720D0BF3800A5CBBC /* UMSocialSDKResources.bundle in Resources */,
+				1BFE879A20D4CF1E00F9B7FA /* logoN58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BB3D72520CE41750067B588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BB3D73020CE41750067B588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D41A2934743F2265D0C2A663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-新金融参考-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BB3D70F20CE41730067B588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE6273620CFB77500DE655F /* AllFloatButton.swift in Sources */,
+				1BB3D71920CE41730067B588 /* ViewController.swift in Sources */,
+				1BEECA2820DB595B006EEB0D /* SwiftPopMenu.swift in Sources */,
+				1BB3D71720CE41730067B588 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BB3D72320CE41750067B588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB3D72C20CE41750067B588 /* _____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BB3D72E20CE41750067B588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB3D73720CE41750067B588 /* _____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BB3D72920CE41750067B588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BB3D71220CE41730067B588 /* 新金融参考 */;
+			targetProxy = 1BB3D72820CE41750067B588 /* PBXContainerItemProxy */;
+		};
+		1BB3D73420CE41750067B588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BB3D71220CE41730067B588 /* 新金融参考 */;
+			targetProxy = 1BB3D73320CE41750067B588 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BB3D71F20CE41750067B588 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BB3D72020CE41750067B588 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BB3D73920CE41750067B588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BB3D73A20CE41750067B588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BB3D73C20CE41750067B588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F824230A5324E87A72926A4E /* Pods-新金融参考.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43P7VBX2HC;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/新金融参考/UMSocial/UMSocialUI",
+					"$(PROJECT_DIR)/新金融参考/UMSocial",
+					"$(PROJECT_DIR)/新金融参考/UMSocial/normal",
+					"$(PROJECT_DIR)/新金融参考/UMSocial/thirdparties/thirdparties_ios_1.0.5",
+				);
+				INFOPLIST_FILE = "新金融参考/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/新金融参考/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/新金融参考/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/新金融参考/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/新金融参考/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/新金融参考/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/新金融参考/UMSocial/SocialLibraries/QQ",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beijing.nomedia.xinjinrong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		1BB3D73D20CE41750067B588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9423DF6209A0FA63124CE97 /* Pods-新金融参考.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43P7VBX2HC;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/新金融参考/UMSocial/UMSocialUI",
+					"$(PROJECT_DIR)/新金融参考/UMSocial",
+					"$(PROJECT_DIR)/新金融参考/UMSocial/normal",
+					"$(PROJECT_DIR)/新金融参考/UMSocial/thirdparties/thirdparties_ios_1.0.5",
+				);
+				INFOPLIST_FILE = "新金融参考/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/新金融参考/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/新金融参考/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/新金融参考/SocialLibraries/QQ",
+					"$(PROJECT_DIR)/新金融参考/UMSocial/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/新金融参考/UMSocial/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/新金融参考/UMSocial/SocialLibraries/QQ",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beijing.nomedia.xinjinrong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		1BB3D73F20CE41750067B588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43P7VBX2HC;
+				INFOPLIST_FILE = "新金融参考Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nomedia.xinjinrong.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/新金融参考.app/新金融参考";
+			};
+			name = Debug;
+		};
+		1BB3D74020CE41750067B588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43P7VBX2HC;
+				INFOPLIST_FILE = "新金融参考Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nomedia.xinjinrong.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/新金融参考.app/新金融参考";
+			};
+			name = Release;
+		};
+		1BB3D74220CE41750067B588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43P7VBX2HC;
+				INFOPLIST_FILE = "新金融参考UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nomedia.xinjinrong.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "新金融参考";
+			};
+			name = Debug;
+		};
+		1BB3D74320CE41750067B588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43P7VBX2HC;
+				INFOPLIST_FILE = "新金融参考UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nomedia.xinjinrong.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "新金融参考";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BB3D70E20CE41730067B588 /* Build configuration list for PBXProject "新金融参考" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BB3D73920CE41750067B588 /* Debug */,
+				1BB3D73A20CE41750067B588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BB3D73B20CE41750067B588 /* Build configuration list for PBXNativeTarget "新金融参考" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BB3D73C20CE41750067B588 /* Debug */,
+				1BB3D73D20CE41750067B588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BB3D73E20CE41750067B588 /* Build configuration list for PBXNativeTarget "新金融参考Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BB3D73F20CE41750067B588 /* Debug */,
+				1BB3D74020CE41750067B588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BB3D74120CE41750067B588 /* Build configuration list for PBXNativeTarget "新金融参考UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BB3D74220CE41750067B588 /* Debug */,
+				1BB3D74320CE41750067B588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BB3D70B20CE41730067B588 /* Project object */;
+}
